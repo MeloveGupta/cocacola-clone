@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PoppinsRegular';
+    color: #ffffff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding: 0 50px;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-prt2 {
+    display: flex;
+    width: 70%;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav h1 {
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+#nav i {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+#nav h5 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#nav img {
+    height: 65px;
+}
+
+#line {
+    width: 80px;
+    height: 2px;
+    background-color: red;
+}
+
+#content {
+    height: calc(100% - 100px);
+    width: 100%;
+    position: relative;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#left {
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 100px 50px;
+}
+
+#center {
+    width: 28%;
+    height: 100%;
+    /* background-color: blue; */
+    padding-top: 55px;
+}
+
+#right {
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 180px 60px;
+}
+
+#left h1 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 55px;
+}
+
+#left h1 span {
+    color: red;
+    font-weight: 500;
+}
+
+#left p {
+    font-size: 14px;
+    width: 75%;
+    margin-bottom: 40px;
+}
+
+#left button {
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+#left button i {
+    margin-right: 10px;
+}
+
+#center-bg {
+    background-color: red;
+    width: 100%;
+    height: 90%;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url('assets/cocacola_bg.jpg');
+    background-size: 700%;
+    background-position: 30% 35%;
+    filter: blur(6px);
+}
+
+#content>img {
+    height: 100%;
+    position: absolute;
+    left: 35%;
+    transform: (-50%, 0);
+}
+
+#right-elements {
+    /* background-color: red; */
+    width: 380px;
+}
+
+#element-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    opacity: 0.4;
+    /* background-color: blue; */
+    border-bottom: 1px solid #ffffff;
+}
+
+#element-1 h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#element-1 i{
+    font-size: 24px;
+}
+
+#element-2 h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+#element-2 p {
+    font-size: 9px;
+    width: 75%;
+    opacity: 0.4;
+}
